@@ -1,0 +1,208 @@
+#bajnoksagTable table{
+  text-align: center;
+  border-collapse: collapse;
+  width: 80%;
+  margin-top:30px;
+}
+
+#bajnoksagTable th, td{
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+#bajnoksagTable tbody tr:hover {
+  background-color:rgba(0,0,0,0.3);
+
+}
+
+#sorsolasTable table{
+  width: 30%;
+  float: inherit;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#sorsolasTable th{
+  text-align: left;
+}
+
+h1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#sorsolasTable tbody tr:hover {
+  background-color:rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+/* Ezt másoltam a netről a popuphoz */
+#overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  display: none;
+}
+
+#popup {
+  max-width: 600px;
+  width: 80%;
+  max-height: 300px;
+  height: 80%;
+  padding: 20px;
+  position: relative;
+  background: #fff;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#popup p{
+  margin-top:40px;
+}
+
+#popup input[type=number]{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.update-submit-btn{
+  background-color: white;
+  color: #C83803;
+  border: 1px solid #C83803;
+  border-radius: 3px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  transition-duration: 0.4s;
+  margin-top:3%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.update-submit-btn:hover{
+  background-color: #C83803;
+  color: #0B162A;
+}
+
+#close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #000;
+}
+
+#update_p table{
+  width: 100%;
+  border-style: none;
+}
+
+#update_p table td{
+  border-style:none;
+  width: 33%;
+}
+
+#statsContainerDiv{
+  width: 90%;
+  text-align: center;
+}
+
+#statsContainerDiv table{
+  float:left;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top:20px;
+  margin-bottom: 30px;
+}
+
+#statsContainerDiv td{
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  min-width: 50px;
+}
+
+#statsContainerDiv th{
+    border: 0px solid #ddd;
+    cursor: context-menu;
+}
+
+#statsContainerDiv tbody tr:hover {
+  background-color:rgba(0,0,0,0.3);
+  cursor: pointer;
+  width: 20%;
+}
+
+#statTable table{
+  width: 30%;
+  float: inherit;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#statTable tbody tr:hover {
+  background-color:rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+#goalkeeperTable table{
+  width: 30%;
+  float: inherit;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#goalkeeperTable tbody tr:hover {
+  background-color:rgba(0,0,0,0.3);
+  cursor: context-menu;
+}
+
+#addRed input[type=submit], #addYellow input[type=submit], #addGollovo input[type=submit] {
+  background-color:	#ADFF2F;
+  border-style: none;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  cursor:pointer;
+}
+
+#addRed button, #addYellow button, #addGollovo button {
+  background-color:	#ADFF2F;
+  border-style: none;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  cursor:pointer;
+}
+
+#addRed, #addYellow, #addGollovo{
+  cursor: context-menu;
+}
+
+#addRed td, #addYellow td, #addGollovo td{
+  cursor: context-menu;
+  border-style: none;
+  padding-top: 20px;
+}
+
+#addRed td:hover, #addYellow td:hover, #addGollovo td:hover {
+  background-color:#0B162A;
+  cursor: context-menu;
+}

@@ -1,0 +1,30 @@
+#leagueDiv{
+  height: 260px;
+  width: 200px;
+  background-color: #C83803;
+  color:#0B162A;
+  text-align: center;
+  margin: 50px;
+  float:left;
+  border-radius: 5px;
+  border: 0.5px solid white;
+  font-weight: bold;
+  transition: transform .2s;
+}
+
+#leagueDiv p{
+  border-bottom: 1px solid white;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#leagueDiv table{
+  width: 100%;
+  border-collapse: collapse;
+}
+#leagueDiv td{
+  height: 20px;
+}
+#leagueDiv:hover {
+  transform: scale(1.1);
+}

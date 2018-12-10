@@ -1,0 +1,141 @@
+
+#new-form-fifa{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#new-form-select{
+  width: 100px;
+  border:none;
+  border-radius: 3px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.new-form-p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.new-form-p input[type=text]{
+  border: none;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.new-form-p input[type=number]{
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+}
+
+
+input{
+  margin-left: 10px;
+}
+
+
+.submit-btn{
+  background-color: #0B162A;
+  color: #C83803;
+  border: 1px solid #C83803;
+  border-radius: 3px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  margin-top: 20px;
+}
+
+.submit-btn:hover{
+  background-color: #C83803;
+  color: #0B162A;
+}
+
+#namesInput{
+  width: 80%;
+  height: 50px;
+  background-color: #C83803;
+  border-radius: 4px;
+  display: none;
+  transition: display 1s;
+  cursor: context-menu;
+  font-weight: bold;
+  color:#0B162A;
+  text-align:inherit;
+}
+
+#toggledNamesInput
+{
+  width: 80%;
+  height: 80px;
+  background-color: #C83803;
+  display: none;
+  border-radius: 4px;
+  color:#0B162A;
+  font-weight: bold;
+}
+
+#new-form-players-number{
+  width: 100px;
+  border:none;
+  border-radius: 3px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 80%;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 0px solid #ccc;
+    border-top: none;
+}
+
+#new-Form-Submit{
+  background-color: #0B162A;
+  color: #C83803;
+  border: 1px solid #C83803;
+  border-radius: 3px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  margin-top:1%;
+}
+
+#new-Form-Submit:hover{
+  background-color: #C83803;
+  color: #0B162A;
+}
+
+#fifa-playoff-number-p{
+  display:none;
+}
